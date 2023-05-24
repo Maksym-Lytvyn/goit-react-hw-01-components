@@ -1,0 +1,15 @@
+.generalBorder {
+    border: 2px groove black;
+    margin: 0 auto;
+}
+.itemTitle {
+    border: 1px groove black;
+    padding: 20px 50px 20px 50px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.itemRow {
+    border: 1px groove black;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(185, 175, 175);
+}

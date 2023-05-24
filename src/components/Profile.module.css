@@ -1,0 +1,38 @@
+.profile {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid black;
+}
+.avatar {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+.name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.tag {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.location {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.stats {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.stats > li {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    color: grey;
+}
+.quantity {
+    font-weight: bold;
+}

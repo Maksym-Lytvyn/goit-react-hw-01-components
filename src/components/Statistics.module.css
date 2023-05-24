@@ -1,0 +1,25 @@
+.statistics {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.statList {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 35px;
+}
+.labelStats {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+}
+.percentage {
+    font-size: 18px;
+}
