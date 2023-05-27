@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import cssStatistics from './Statistics.module.css';
 
 function getRandomColor() {
@@ -9,7 +10,6 @@ function getRandomColor() {
 
 const Statistics = ({title, stats}) => (
 <section className={cssStatistics.statistics}>
-  <h2 className="title">{title}</h2>
 
    <ul className={cssStatistics.statList}>
     {stats.map(stat => (
@@ -21,5 +21,9 @@ const Statistics = ({title, stats}) => (
     </ul> 
 </section>
 )
+
+Statistics.propTypes = {
+  stats: PropTypes.array,
+};
 
 export default Statistics;
