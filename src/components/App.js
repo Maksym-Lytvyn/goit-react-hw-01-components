@@ -19,6 +19,7 @@ function App() {
       tag={userData.tag}
       />
       <Statistics
+      title="Upload stats"
       stats={statisticData}
       />
       <FriendsList
