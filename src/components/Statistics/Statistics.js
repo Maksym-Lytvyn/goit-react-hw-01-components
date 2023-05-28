@@ -10,9 +10,7 @@ function getRandomColor() {
 
 const Statistics = ({title, stats}) => (
 <section className={cssStatistics.statistics}>
-  {title.length > 0 && (
-    <h2 className="title">{title}</h2>
-  )}
+  {title && <h2 className='title'>{title}</h2>}
 
    <ul className={cssStatistics.statList}>
     {stats.map(stat => (
